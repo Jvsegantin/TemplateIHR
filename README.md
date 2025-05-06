@@ -67,68 +67,68 @@ Como o Vesper é projetado para servir bebidas alcoólicas, sua interação com 
 ![Mapa de empatia](empatia.png)
 
 ### Persona Primária: Rafael, 28 anos, publicitário
-## O que ele PENSA E SENTE?
+# O que ele PENSA E SENTE?
 Rafael se sente empolgado com a experiência de um robô no ambiente de lazer. Quer diversão com eficiência e um toque de inovação. Sente-se seguro e curioso com o robô entregando bebidas. Espera uma interação amigável e tranquila.
 
-## O que ele ESCUTA?
+# O que ele ESCUTA?
 Conversas animadas entre amigos sobre o robô. Sons ambientes do bar, música moderna. Influenciadores nas redes comentando sobre “o bar do robô”.
 
-## O que ele VÊ?
+# O que ele VÊ?
 Ambiente iluminado, moderno, com pessoas socializando, luzes e o Vesper se movimentando com suavidade. Observa outros interagindo com o robô de forma positiva.
 
-## O que ele FALA E FAZ?
+# O que ele FALA E FAZ?
 Comenta com amigos sobre a inovação. Tira fotos e vídeos do robô. Pode acenar ou se aproximar, mantendo uma distância confortável e respeitosa. Ri ou faz comentários sobre “estar no futuro”.
 
-## DOR:
+# DOR:
 Esperar muito tempo pelo atendimento. Sentir que o robô é brusco ou ameaçador. Não entender como funciona a interação.
 
-## GANHOS:
+# GANHOS:
 Atendimento divertido, automatizado, rápido e seguro. Experiência diferenciada e memorável. Praticidade no recebimento da bebida.
 
 ### Persona Secundária: João, 40 anos, garçom
-## O que ele PENSA E SENTE?
+# O que ele PENSA E SENTE?
 João vê o robô como uma ferramenta de apoio. Sente-se mais eficiente com o uso do Vesper, mas também carrega a responsabilidade de manter o robô abastecido e funcionando. Quer evitar erros ou falhas operacionais.
 
-## O que ele ESCUTA?
+# O que ele ESCUTA?
 Instruções da equipe técnica ou do supervisor. Feedback dos colegas sobre o funcionamento do robô. Clientes comentando sobre a experiência com curiosidade e entusiasmo.
 
-## O que ele VÊ?
+# O que ele VÊ?
 A base operacional do robô, com reservatórios e compartimentos de bebida. O fluxo de pessoas no salão e as rotas do robô em operação. Painéis de status ou sinais visuais no Vesper indicando necessidades.
 
-## O que ele FALA E FAZ?
+# O que ele FALA E FAZ?
 Reabastece compartimentos, faz verificações rápidas, limpa sensores ou superfície quando necessário. Comenta entre colegas sobre a praticidade ou os desafios. Relata qualquer problema ao suporte técnico.
 
-## DOR:
+# DOR:
 Atrasos no reabastecimento, mau funcionamento ou dúvidas técnicas. Dificuldade de acesso ao compartimento do robô. Falta de treinamento adequado.
 
-## GANHOS:
+# GANHOS:
 Redução de esforço físico, agilidade no atendimento. Mais tempo para focar em outras demandas. Reconhecimento por trabalhar em um ambiente moderno.
 
 ### Contexto de uso
-## Ambiente de interação:
+# Ambiente de interação:
 O Vesper opera em ambientes sociais fechados como bares temáticos, lounges modernos, feiras tecnológicas, eventos corporativos ou ambientes universitários voltados à inovação. O espaço possui fluxo moderado de pessoas, iluminação controlada, mesas distribuídas com corredores largos o suficiente para permitir a movimentação segura do robô. Há uma área reservada para reabastecimento supervisionada por funcionários.
 
-## Contexto social, econômico e cultural:
+# Contexto social, econômico e cultural:
 O ambiente é composto majoritariamente por adultos jovens e profissionais de classe média urbana, com interesse por tecnologia, inovação e experiências diferenciadas. Culturalmente, trata-se de um público habituado a novidades digitais, que consome conteúdo em redes sociais e valoriza serviços automatizados. O uso do robô agrega um diferencial futurista ao local e reforça o posicionamento da marca como inovadora.
 
-## Informações que o robô deve saber antes de iniciar a tarefa:
+# Informações que o robô deve saber antes de iniciar a tarefa:
 
-## Mapeamento do ambiente: 
+# Mapeamento do ambiente: 
 Localização das mesas, pontos de recarga, rota segura de circulação, áreas de restrição (como zonas com crianças).
 
-## Controle de volume:
+# Controle de volume:
  Adequação do nível dos speakers ao ambiente (evitando sons altos em locais mais silenciosos ou ao se aproximar dos clientes).
 
-## Presença de obstáculos: 
+# Presença de obstáculos: 
 Localização de objetos fora do lugar, acúmulo de pessoas ou móveis que interfiram na rota.
 
-## Nível de bebida no compartimento:
+# Nível de bebida no compartimento:
 Evitar iniciar entregas com estoque insuficiente.
 
-## Identificação de zonas proibidas: 
+# Identificação de zonas proibidas: 
 O robô deve reconhecer áreas onde sua presença não é recomendada, como mesas infantis, pistas de dança ou corredores estreitos.
 
-## Estado do ambiente: 
+# Estado do ambiente: 
 Nível de iluminação, se há som ambiente alto, clima (para adaptar eventuais mensagens ou tom de voz).
 
 
