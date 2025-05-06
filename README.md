@@ -130,6 +130,8 @@ O robô deve reconhecer áreas onde sua presença não é recomendada, como mesa
 
 ## Estado do ambiente: 
 Nível de iluminação, se há som ambiente alto, clima (para adaptar eventuais mensagens ou tom de voz).
+
+
 ### Jornada do usuário
 
 - Criar uma narrativa para o o seu robô e o usuário.
