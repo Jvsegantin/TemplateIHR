@@ -58,6 +58,10 @@ Gestores do restaurante: Avaliam o desempenho do robô em termos de custo-benef�
 
 Técnicos de manutenção: Responsáveis por garantir o funcionamento contínuo do robô, atualizando software e monitorando o hardware.
 
+Personas que não devem interagir com o robô
+Crianças e adolescentes (menores de 18 anos):
+Como o Vesper é projetado para servir bebidas alcoólicas, sua interação com menores de idade é estritamente proibida. Medidas preventivas devem ser tomadas, como bloqueios físicos, cortinas de segurança e futuros mecanismos de verificação de idade, para garantir a operação ética e segura do sistema.
+
 ### Mapa de empatia
 
 ![Mapa de empatia](empatia.png)
