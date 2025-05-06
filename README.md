@@ -66,14 +66,43 @@ Como o Vesper é projetado para servir bebidas alcoólicas, sua interação com 
 
 ![Mapa de empatia](empatia.png)
 
-- Determine o mapa de empatia[^1] de pelo menos uma persona primária e uma sercundária.
-  - O que o usuário vê: aqui estamos falando do ambiente visual em que o usuário se encontra. Ou seja, o que ele efetivamente enxerga, as pessoas e objetos que estão ao seu redor. Isso ajuda a entender o contexto em que o usuário está inserido e as influências visuais que está recebendo.
-  - O que o usuário ouve: neste quadrante, buscamos entender o que o usuário está ouvindo, os sons que o cercam e como eles influenciam suas ações.
-  - O que o usuário diz e faz: aqui consideramos ações e comportamentos que o usuário apresenta durante sua interação com o robô.
-  - O que o usuário pensa e sente: neste quadrante, buscamos entender os pensamentos, sentimentos, emoções e percepções que o usuário tem em relação robô. Quais expectativas o usuário cria sobre o robô?
-  Que tipo de robô mais agrada essa persona?
-  - Dores: quando falamos sobre dores do usuário, estamos fazendo referência a quaisquer obstáculos, necessidades ou frustrações que o usuário possa experimentar ao tentar realizar uma tarefa ou alcançar um objetivo. Isso inclui, por exemplo, problemas de usabilidade, dificuldades de acesso ou outros desafios que podem afetar a experiência do usuário.
-  - Ganhos: nesse caso estamos falando de quaisquer benefícios ou recompensas que o usuário possa experimentar ao utilizar o robô. Isso pode incluir economia de tempo ou facilidade de uso, por exemplo. Que desejos do usuário o robô satisfaz?
+Persona Primária: Rafael, 28 anos, publicitário
+O que ele PENSA E SENTE?
+Rafael se sente empolgado com a experiência de um robô no ambiente de lazer. Quer diversão com eficiência e um toque de inovação. Sente-se seguro e curioso com o robô entregando bebidas. Espera uma interação amigável e tranquila.
+
+O que ele ESCUTA?
+Conversas animadas entre amigos sobre o robô. Sons ambientes do bar, música moderna. Influenciadores nas redes comentando sobre “o bar do robô”.
+
+O que ele VÊ?
+Ambiente iluminado, moderno, com pessoas socializando, luzes e o Vesper se movimentando com suavidade. Observa outros interagindo com o robô de forma positiva.
+
+O que ele FALA E FAZ?
+Comenta com amigos sobre a inovação. Tira fotos e vídeos do robô. Pode acenar ou se aproximar, mantendo uma distância confortável e respeitosa. Ri ou faz comentários sobre “estar no futuro”.
+
+DOR:
+Esperar muito tempo pelo atendimento. Sentir que o robô é brusco ou ameaçador. Não entender como funciona a interação.
+
+GANHOS:
+Atendimento divertido, automatizado, rápido e seguro. Experiência diferenciada e memorável. Praticidade no recebimento da bebida.
+
+Persona Secundária: João, 40 anos, garçom
+O que ele PENSA E SENTE?
+João vê o robô como uma ferramenta de apoio. Sente-se mais eficiente com o uso do Vesper, mas também carrega a responsabilidade de manter o robô abastecido e funcionando. Quer evitar erros ou falhas operacionais.
+
+O que ele ESCUTA?
+Instruções da equipe técnica ou do supervisor. Feedback dos colegas sobre o funcionamento do robô. Clientes comentando sobre a experiência com curiosidade e entusiasmo.
+
+O que ele VÊ?
+A base operacional do robô, com reservatórios e compartimentos de bebida. O fluxo de pessoas no salão e as rotas do robô em operação. Painéis de status ou sinais visuais no Vesper indicando necessidades.
+
+O que ele FALA E FAZ?
+Reabastece compartimentos, faz verificações rápidas, limpa sensores ou superfície quando necessário. Comenta entre colegas sobre a praticidade ou os desafios. Relata qualquer problema ao suporte técnico.
+
+DOR:
+Atrasos no reabastecimento, mau funcionamento ou dúvidas técnicas. Dificuldade de acesso ao compartimento do robô. Falta de treinamento adequado.
+
+GANHOS:
+Redução de esforço físico, agilidade no atendimento. Mais tempo para focar em outras demandas. Reconhecimento por trabalhar em um ambiente moderno.
 
 ## Contexto de uso
 
