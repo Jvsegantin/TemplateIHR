@@ -20,16 +20,43 @@ Neste cenário, foi desenvolvido o Vesper, um robô bartender fixo, projetado pa
 
 ## Publico Alvo
 
-- Determine o seu público alvo:
+O robô bartender Vesper foi desenvolvido para atender um público que frequenta restaurantes de padrão médio-alto, em ambientes onde a tecnologia e a sofisticação fazem parte da proposta de valor do estabelecimento. Esse público busca agilidade no atendimento, praticidade no processo de pedidos e, ao mesmo tempo, experiências diferenciadas e inovadoras. Além disso, o Vesper também interage com os colaboradores do restaurante, principalmente os garçons responsáveis pelo suporte logístico da operação.
 
-### Personas
+Personas
+Persona Primária – Cliente do restaurante
+Nome: Carolina
+Idade: 34 anos
+Profissão: Designer de interiores
+Contexto social e econômico: Classe média-alta, frequenta restaurantes premium e valoriza experiências gastronômicas inovadoras. Está conectada às tendências tecnológicas e busca ambientes que combinem conforto, estilo e praticidade.
+Cultura e comportamento: Gosta de tirar fotos e compartilhar experiências nas redes sociais. Valoriza atendimento ágil e tem baixa tolerância a longas esperas.
 
-- Descreva as personas que irão interagir com o robô. Deixe claro suas principais caracteristicas e contextos sociais, econômicos e culturais.
-- Quais informações sobre o usuário o robô deve saber antes de iniciar a tarefa?
+O que o robô precisa saber antes de iniciar a tarefa:
 
-  - Persona primaira ...
-  - Persona secundária ...
-  - Outras personas ...
+O tipo de bebida desejada (menu com opções claras)
+
+Restrições (como opção sem álcool ou alergias)
+
+Confirmação de idade, para validar legalmente a entrega de bebidas alcoólicas
+
+Persona Secundária – Garçom reabastecedor
+Nome: Diego
+Idade: 27 anos
+Profissão: Garçom
+Contexto social e econômico: Jovem trabalhador da área de serviços, com ensino médio completo e experiência em atendimento ao público. Trabalha em um restaurante de alto padrão onde eficiência e organização são essenciais.
+Cultura e comportamento: Preza por praticidade, clareza nas tarefas e bom ambiente de trabalho. Está habituado a lidar com sistemas digitais e alertas operacionais.
+
+O que o robô precisa saber antes de iniciar a tarefa:
+
+Se os insumos estão no nível adequado (o próprio robô detecta e envia alertas)
+
+Qual item está faltando ou precisa de reposição (ex: gelo, bebida alcoólica, copos)
+
+Local de armazenamento para facilitar o reabastecimento
+
+Outras personas
+Gestores do restaurante: Avaliam o desempenho do robô em termos de custo-benefício, eficiência no atendimento e feedback dos clientes.
+
+Técnicos de manutenção: Responsáveis por garantir o funcionamento contínuo do robô, atualizando software e monitorando o hardware.
 
 ### Mapa de empatia
 
