@@ -284,10 +284,63 @@ O Makr Shakr é considerado a plataforma mais inspiradora. Apesar da sua complex
 
 ## Design
 
-- Pense nas características de Affordances do seu robô. Que tipo de acessibilidades devem ser consideradas dentro do seu projeto?
-- Discuta o papel das expectativas do usuário no projeto de um robô. Qual a importância e pontos a serem considerados se você quiser vender esse robô  seu robô?
-- O seu robô tem um padrão com mais ou menos características antropomórficas? Qual padrão é mais aceito pela sociedade dentro do projeto que você está desenvolvendo?
-- Quais o design mais apropriado para o robô deste projeto? Modele o seu robô com desenhos de formas primitivas (caixas, cilindros, esferas)
+O Vesper foi projetado para ser um robô bartender fixo, com foco em acessibilidade, segurança, estética moderna e experiência intuitiva. Seu design é composto por formas simples e bem definidas, priorizando clareza funcional e segurança no uso.
+
+Affordances e acessibilidade
+
+O conceito de affordance foi considerado para garantir que a interação com o Vesper seja intuitiva e segura. Alguns exemplos:
+
+A tela do tablet frontal está inclinada e em altura acessível para usuários em pé ou com mobilidade reduzida.
+
+Luzes LED indicam claramente o status do robô (aguardando, preparando, entrega).
+
+O braço mecânico se posiciona automaticamente em um ponto de fácil alcance, sinalizando claramente que o copo pode ser retirado.
+
+A presença de uma cortina de segurança física e visual impede a aproximação excessiva dos usuários, promovendo acessibilidade sem comprometer a segurança.
+
+Textos e ícones na interface são grandes e de alto contraste para pessoas com baixa visão.
+
+Expectativas do usuário
+
+O projeto do Vesper considera que os usuários esperam uma experiência prática, segura e marcante. Para que o robô seja bem aceito comercialmente, é necessário atender às seguintes expectativas:
+
+Clareza na comunicação: o Vesper utiliza linguagem amigável, simples e direta.
+
+Aparência confiável: seu design é moderno, mas sem exageros tecnológicos que possam assustar o usuário comum.
+
+Tempo de resposta: o usuário espera um tempo de preparo e entrega rápido.
+
+Estabilidade: o robô não pode apresentar comportamentos imprevisíveis.
+
+Ao atender essas expectativas, o robô aumenta sua aceitação no mercado, reduz a necessidade de treinamento e reforça a imagem de marca do estabelecimento onde está instalado.
+
+Antropomorfismo
+
+O Vesper adota um padrão com características levemente antropomórficas:
+
+Possui uma “cabeça” estática com um alto-falante que simula fala.
+
+O braço com “garra” atua como um gesto de entrega.
+
+Luzes e movimentos suaves ajudam a criar empatia sem parecer humano demais.
+
+Esse padrão é o mais aceito no contexto do projeto, pois evita o “vale da estranheza” — ou seja, o desconforto causado por robôs que tentam imitar demais os humanos — enquanto ainda transmite simpatia e atenção.
+
+Design com formas primitivas
+
+O modelo do Vesper foi construído usando formas geométricas simples:
+
+A base é composta por um grande paralelepípedo horizontal (caixa), que abriga os sistemas eletrônicos e serve de suporte estável.
+
+A parte superior é formada por uma estrutura vertical com duas colunas laterais (também caixas) e barras transversais cilíndricas.
+
+O braço é representado por dois cilindros articulados (braço e antebraço) ligados por juntas rotativas.
+
+A “garra” é formada por pequenos blocos retangulares articulados.
+
+Os alto-falantes circulares (círculos ou cilindros achatados) na frente simulam “olhos” e falam com os usuários.
+
+Essa abordagem facilita a modelagem digital (como em URDF), permite impressão 3D e garante viabilidade construtiva com custos reduzidos.
 
 <!-- ![Partes do robô](partes_do_robo.png) -->
 <!-- ![Robô](robo.png) -->
