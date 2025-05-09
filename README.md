@@ -132,12 +132,75 @@ Nível de iluminação, se há som ambiente alto, clima (para adaptar eventuais 
 
 ## Jornada do usuário
 
-- Criar uma narrativa para o o seu robô e o usuário.
-- Determine o passo a passo que o usuário realiza desde o primeiro até o último encontro com robô na realização da tarefa.
-- O que está acontecendo com o ambiente quando o robô está interagindo com o usuário?
-  - Descreva o que acontece ou pode acontecer passo a passo
-  - Como a tarefa começa? Como a tarefa evolui? Como a tarefa termina?
-- Enfatize todos os momentos em que acontece uma interação verbal, não-verbal e espacial.
+Narrativa:
+No ambiente de um bar tecnológico, o cliente se dirige até o balcão, onde encontra o robô Vesper posicionado de forma fixa. O robô está protegido por uma cortina de segurança transparente que delimita claramente seu espaço de atuação, impedindo contato direto entre os usuários e suas partes móveis. A ativação acontece exclusivamente por meio do toque no tablet localizado na frente da base do robô, fora da zona de segurança.
+
+Jornada passo a passo:
+
+Início da interação (verbal):
+O cliente toca na tela do tablet para iniciar o pedido. Isso desperta o sistema do Vesper, que responde de forma simpática por meio dos alto-falantes:
+“Sejam bem-vindos!!”
+
+Escolha da bebida (verbal):
+A tela exibe o menu de bebidas. Enquanto o cliente navega, o robô continua guiando a interação verbalmente:
+“Por favor, selecione no tablet abaixo a sua bebida! Basta selecionar a bebida e concluir o pedido. Depois só esperar que vou começar o preparo!”
+
+Preparo da bebida (não-verbal):
+O Vesper inicia o processo de preparo automatizado dentro da zona protegida por cortina. Seus braços se movem de forma suave e controlada. LEDs indicam o status da operação.
+
+Entrega (verbal e não-verbal):
+Com a bebida pronta, o braço do robô estende cuidadosamente o copo até a borda da área segura, posicionando-o na altura de retirada. Nesse momento, o robô anuncia:
+“Bebida pronta! Pegue com cuidado dos meus dedos, pode escorregar!”
+
+O cliente apenas estende o braço até a área permitida e retira o copo. Não há entrada na zona do robô nem qualquer tipo de deslocamento por parte da máquina.
+
+Encerramento (verbal):
+Após a retirada do copo, o robô volta para sua posição inicial e agradece:
+“Espero que tenha gostado! Obrigado e volte sempre!”
+
+Ambiente durante a interação:
+
+O bar permanece funcional, com música ambiente e movimento moderado.
+
+A cortina de segurança delimita claramente o espaço do robô, reforçando a segurança da interação.
+
+Não há movimentação do robô no espaço físico – ele permanece totalmente estático.
+
+A única interface física acessível ao cliente é o tablet, que fica fora da zona de segurança.
+
+Resumo das interações:
+
+Interações verbais:
+
+“Sejam bem-vindos!!”
+
+“Por favor selecione no tablet abaixo a sua bebida!”
+
+“Basta selecionar a bebida e concluir pedido.”
+
+“Depois só esperar que vou começar o preparo!”
+
+“Bebida pronta!”
+
+“Pegue com cuidado dos meus dedos, pode escorregar!”
+
+“Espero que tenha gostado!”
+
+“Obrigado e volte sempre!”
+
+Interações não-verbais:
+
+Luzes LED indicam status do preparo
+
+Braço do robô entrega o copo até a borda da área segura
+
+Interações espaciais:
+
+Extremamente limitadas e restritas à zona frontal do robô
+
+Usuário apenas estende a mão para pegar a bebida em ponto seguro
+
+A cortina de segurança impede qualquer outro tipo de aproximação
 
 ## Análise de concorrência
 
