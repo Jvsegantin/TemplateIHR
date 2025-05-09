@@ -348,34 +348,265 @@ Essa abordagem facilita a modelagem digital (como em URDF), permite impressão 3
 <img alt="Robô" src="robo.png" height="200"/>
 
 ## Ações do robô
+O robô bartender Vesper realiza um conjunto de ações pré-programadas com foco em segurança, automação de preparo de bebidas e interação com o usuário. Abaixo, listamos as principais ações, seus pré-requisitos e os efeitos esperados no ambiente.
 
-- Para cada ação:
-  - Descreva a ação.
-  - Determine os pré-requisitos para que a ação aconteça
-  - Determine o que se espera que seja modificado no ambiente quando a ação é finalizada
+ 
+
+Ação: Ativação do robô (início da interação)
+
+Descrição: O Vesper sai do modo de espera e inicia a interação ao detectar o toque do usuário no tablet frontal.
+
+Pré-requisitos:
+
+Tablet conectado e funcional.
+
+Detecção de toque (input inicial do usuário).
+
+Modificações esperadas no ambiente:
+
+Ativação de luzes LED de status (sinalizando “ativo”).
+
+Início de reprodução de mensagens verbais.
+
+Interface de menu é exibida no tablet.
+
+ 
+
+Ação: Coleta e preparo da bebida
+
+Descrição: O Vesper inicia a preparação da bebida solicitada, movendo internamente o braço para acessar reservatórios e dosar o conteúdo.
+
+Pré-requisitos:
+
+Pedido confirmado no tablet.
+
+Ingredientes disponíveis (verificados por sensores internos).
+
+Nenhum erro de sistema ou falha de segurança.
+
+Modificações esperadas no ambiente:
+
+Movimento visível do braço dentro da área de segurança.
+
+Luz de “preparando” acesa.
+
+Som ambiente do robô em funcionamento.
+
+Copo pronto é posicionado na garra de entrega.
+
+ 
+
+Ação: Entrega da bebida
+
+Descrição: O braço do robô se estende para frente e posiciona o copo em uma zona acessível ao usuário, dentro da área segura e delimitada pela cortina.
+
+Pré-requisitos:
+
+Preparo da bebida finalizado com sucesso.
+
+Espaço livre na área de entrega (sem obstruções).
+
+Modificações esperadas no ambiente:
+
+Luz de “bebida pronta” ativada.
+
+Mensagem verbal: “Pegue com cuidado dos meus dedos, pode escorregar!”
+
+Braço posicionado para retirada do copo.
+
+Presença do copo visível para o cliente.
+
+ 
+
+Ação: Retorno ao estado inicial
+
+Descrição: Após a retirada da bebida, o robô retorna o braço para a posição de repouso e volta ao modo de espera.
+
+Pré-requisitos:
+
+Copo detectado como retirado (via sensor ou cronômetro interno).
+
+Nenhuma solicitação de pedido em andamento.
+
+Modificações esperadas no ambiente:
+
+Luzes desligadas ou com brilho reduzido (indicando estado inativo).
+
+Braço retraído e movimento cessado.
+
+Sistema de voz em silêncio.
+
+Tablet exibe novamente a tela de boas-vindas.
 
 ## Interações do robô
 
-### Espacial
+10 – Interações do Robô
+O Vesper foi projetado para oferecer interações simples, claras e seguras. Suas interações são limitadas por sua estrutura fixa e pela cortina de segurança, mas ainda assim proporcionam uma experiência marcante ao usuário.
 
-- Para cada interação:
-  - Descreva a interação.
-  - Determine os pré-requisitos para que a interação aconteça
-  - Determine espera de resposta emocional do usúario quando a interação é finalizada
+ 
 
-### Verbal
+Interações Espaciais
+Interação: Estender o braço com a bebida até o ponto de retirada
 
-- Para cada interação:
-  - Descreva a interação.
-  - Determine os pré-requisitos para que a interação aconteça
-  - Determine espera de resposta emocional do usúario quando a interação é finalizada
+Descrição: O braço robótico do Vesper se move de dentro da cortina de segurança até a borda da zona acessível, estendendo a bebida ao usuário.
 
-### Não-verbal
+Pré-requisitos:
 
-- Para cada interação:
-  - Descreva a interação.
-  - Determine os pré-requisitos para que a interação aconteça
-  - Determine espera de resposta emocional do usúario quando a interação é finalizada
+Pedido concluído no tablet.
+
+Bebida preparada e posicionada corretamente.
+
+Área de entrega livre de obstáculos.
+
+Resposta emocional esperada:
+
+Surpresa positiva pela precisão do gesto.
+
+Confiança na operação do robô.
+
+Sensação de cuidado, já que o robô respeita o espaço pessoal do usuário.
+
+ 
+
+Interação: Iluminação do estado do robô (LEDs)
+
+Descrição: O robô altera sua iluminação para indicar diferentes estados (em espera, preparando, bebida pronta).
+
+Pré-requisitos:
+
+Robô energizado e com LEDs operacionais.
+
+Estado interno de operação alterado.
+
+Resposta emocional esperada:
+
+Clareza e compreensão do que está acontecendo.
+
+Tranquilidade por entender que o robô está em funcionamento normal.
+
+ 
+
+Obs.: O Vesper não realiza deslocamentos, por isso as interações espaciais são intencionalmente limitadas.
+
+ 
+
+Interações Verbais
+Interação: Saudação ao tocar no tablet
+
+Descrição: Quando o usuário toca o tablet, o Vesper diz “Sejam bem-vindos!” e inicia a interação.
+
+Pré-requisitos:
+
+Toque detectado no tablet.
+
+Sistema de áudio operacional.
+
+Resposta emocional esperada:
+
+Acolhimento e conforto.
+
+Curiosidade e simpatia.
+
+ 
+
+Interação: Orientação durante o pedido
+
+Descrição: Durante o uso do tablet, o Vesper guia o usuário com frases como “Por favor selecione no tablet abaixo a sua bebida” e “Depois só esperar que vou começar o preparo”.
+
+Pré-requisitos:
+
+Usuário navegando no menu de bebidas.
+
+Resposta emocional esperada:
+
+Segurança na tomada de decisão.
+
+Satisfação por receber instruções claras.
+
+ 
+
+Interação: Aviso de bebida pronta
+
+Descrição: Após finalizar o preparo, o Vesper anuncia “Bebida pronta! Pegue com cuidado dos meus dedos, pode escorregar!”
+
+Pré-requisitos:
+
+Preparo concluído.
+
+Braço posicionado para entrega.
+
+Resposta emocional esperada:
+
+Senso de humor leve e agradável.
+
+Entusiasmo por estar sendo atendido.
+
+ 
+
+Interação: Despedida
+
+Descrição: Após a retirada da bebida, o Vesper conclui: “Espero que tenha gostado! Obrigado e volte sempre!”
+
+Pré-requisitos:
+
+Detecção de retirada do copo (por tempo ou sensor).
+
+Resposta emocional esperada:
+
+Satisfação.
+
+Encerramento amigável da experiência.
+
+ 
+
+Interações Não-verbais
+Interação: Movimento suave do braço
+
+Descrição: O braço robótico do Vesper realiza movimentos lentos e previsíveis ao entregar o copo.
+
+Pré-requisitos:
+
+Pedido finalizado.
+
+Sem obstáculos.
+
+Resposta emocional esperada:
+
+Tranquilidade e segurança.
+
+Impressão de cuidado e respeito.
+
+ 
+
+Interação: Mudança na postura da “garra” (dedos)
+
+Descrição: Os dedos mecânicos simulam uma pegada cuidadosa no copo, reforçando o cuidado na entrega.
+
+Pré-requisitos:
+
+Copo preenchido e pronto.
+
+Resposta emocional esperada:
+
+Atenção ao detalhe.
+
+Empatia com o robô (o gesto simula um cuidado humano).
+
+ 
+
+Interação: Alteração visual com LEDs
+
+Descrição: As luzes no robô mudam de cor conforme o estágio do atendimento (ex: azul em espera, amarelo preparando, verde bebida pronta).
+
+Pré-requisitos:
+
+Estado interno alterado.
+
+Resposta emocional esperada:
+
+Clareza sobre o progresso do pedido.
+
+Estética tecnológica agradável.
 
 [^1]: Fonte: Adaptado de <https://hazeshift.com.br/mapa-de-empatia/>
 
