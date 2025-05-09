@@ -204,12 +204,83 @@ A cortina de segurança impede qualquer outro tipo de aproximação
 
 ## Análise de concorrência
 
-- Pesquise robôs existentes atualmente que possam fazer a tarefa deste projeto.
-- Selecione pelo menos 3 robôs diferentes que podem fazer essa tarefa.
-- Em relação aos concorrentes, respondam as seguintes perguntas?
-  - Existe plataforma similar que atende o mesmo mercado e funcionalidades? Se sim: Quais os pontos positivos? Quais os pontos negativos?
-  - Existe plataforma diferente quanto ao serviço, mas que atenda esse mercado? Se sim: Quais os pontos positivos? Quais os pontos negativos?
-  - Quais plataformas sua equipe acha mais interessantes? Qual a justificativa?
+Para o desenvolvimento do robô bartender Vesper, foram estudadas três plataformas já existentes que exercem funções semelhantes no mercado de automação de serviços de bebidas. A seguir, apresentamos uma análise comparativa entre elas e o Vesper:
+
+Concorrentes diretos:
+
+a) Makr Shakr
+Descrição: Robô bartender com braços industriais (tipo KUKA) que preparam drinks em bares automatizados. Utilizado em cruzeiros, eventos e estabelecimentos premium.
+
+Pontos positivos:
+
+Alto grau de automação
+
+Capacidade de preparo personalizado de coquetéis
+
+Design chamativo que atrai o público
+
+Pontos negativos:
+
+Alto custo de implementação e manutenção
+
+Estrutura complexa e de grandes dimensões
+
+Pouca interação social real (é mais espetáculo do que serviço cotidiano)
+
+b) BierPaulii Robot
+Descrição: Robô fixo alemão voltado para o serviço de cervejas. Ele abre garrafas e serve canecas automaticamente.
+
+Pontos positivos:
+
+Simples, direto e funcional
+
+Excelente para ambientes de alto volume (festas, festivais, etc.)
+
+Interação rápida e divertida
+
+Pontos negativos:
+
+Limitado a bebidas específicas (cervejas)
+
+Pouca personalização de atendimento
+
+Aparência rústica e industrial
+
+c) Schank-Robot
+Descrição: Sistema de autosserviço de bebidas que integra robótica e esteiras automatizadas. Voltado para grandes eventos e feiras.
+
+Pontos positivos:
+
+Alta produtividade em grande escala
+
+Ideal para ambientes com alto fluxo e pouca personalização
+
+Baixo tempo de espera
+
+Pontos negativos:
+
+Interação limitada ao digital
+
+Não proporciona experiência personalizada ou estética
+
+Pouco atrativo em ambientes sofisticados
+
+Plataforma similar ao Vesper (mesmo público e funcionalidades):
+O Makr Shakr é a plataforma mais próxima do Vesper em termos de mercado-alvo e funcionalidades. Ambos atuam em ambientes sofisticados, com foco em drinks e experiência.
+
+Pontos positivos do Makr Shakr: grande capacidade técnica e visual futurista.
+
+Pontos negativos: alto custo, complexidade de manutenção e possível desconexão emocional com o usuário.
+
+Plataforma diferente no serviço, mas que atende o mesmo mercado:
+O BierPaulii atende o mesmo público em eventos descontraídos, mas de maneira diferente — focado em cervejas e cervejarias.
+
+Pontos positivos: praticidade, velocidade, robustez.
+
+Pontos negativos: pouca flexibilidade e estética industrial, o que o distancia do ambiente sofisticado visado pelo Vesper.
+
+Plataforma mais interessante para a equipe:
+O Makr Shakr é considerado a plataforma mais inspiradora. Apesar da sua complexidade, ele demonstra como um robô pode transformar o preparo de bebidas em uma experiência visual e funcional. No entanto, o Vesper se destaca por buscar um equilíbrio entre tecnologia acessível, segurança e estética adaptada a ambientes de médio porte. Ele mantém uma proposta mais contida, segura e funcional, sem deixar de lado a interação amigável e o apelo visual.
 
 ## Design
 
