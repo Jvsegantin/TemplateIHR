@@ -64,7 +64,7 @@ Como o Vesper é projetado para servir bebidas alcoólicas, sua interação com 
 
 ### Mapa de empatia
 
-![Mapa de empatia](empatia.png)
+![Mapa de empatia](empatia_Rafael.png)
 
 ### Persona Primária: Rafael, 28 anos, publicitário
 O que ele PENSA E SENTE?
