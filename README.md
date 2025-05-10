@@ -85,6 +85,8 @@ Esperar muito tempo pelo atendimento. Sentir que o robô é brusco ou ameaçador
 GANHOS:
 Atendimento divertido, automatizado, rápido e seguro. Experiência diferenciada e memorável. Praticidade no recebimento da bebida.
 
+![Mapa Empatia](empatia_Joao.png)
+
 ### Persona Secundária: João, 40 anos, garçom
 O que ele PENSA E SENTE?
 João vê o robô como uma ferramenta de apoio. Sente-se mais eficiente com o uso do Vesper, mas também carrega a responsabilidade de manter o robô abastecido e funcionando. Quer evitar erros ou falhas operacionais.
