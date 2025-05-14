@@ -95,26 +95,23 @@ Redução de esforço físico, agilidade no atendimento. Mais tempo para focar e
 
 ### Contexto de uso
 Ambiente de interação:
-O Vesper opera em ambientes sociais fechados como bares temáticos, lounges modernos, feiras tecnológicas, eventos corporativos ou ambientes universitários voltados à inovação. O espaço possui fluxo moderado de pessoas, iluminação controlada, mesas distribuídas com corredores largos o suficiente para permitir a movimentação segura do robô. Há uma área reservada para reabastecimento supervisionada por funcionários.
+O Vesper opera em ambientes sociais fechados como bares temáticos, lounges modernos, feiras tecnológicas, eventos corporativos ou ambientes universitários voltados à inovação. O espaço possui fluxo moderado de pessoas, iluminação controlada. Há uma área reservada para reabastecimento supervisionada por funcionários.
 
 Contexto social, econômico e cultural:
-O ambiente é composto majoritariamente por adultos jovens e profissionais de classe média urbana, com interesse por tecnologia, inovação e experiências diferenciadas. Culturalmente, trata-se de um público habituado a novidades digitais, que consome conteúdo em redes sociais e valoriza serviços automatizados. O uso do robô agrega um diferencial futurista ao local e reforça o posicionamento da marca como inovadora.
+O ambiente é composto majoritariamente por adultos e jovens adultos além de profissionais de classe média urbana, com interesse por tecnologia, inovação e experiências diferenciadas. Culturalmente, trata-se de um público habituado a novidades digitais. O uso do robô agrega um diferencial futurista ao local e reforça o posicionamento da marca como inovadora.
 
 # Informações que o robô deve saber antes de iniciar a tarefa:
 Mapeamento do ambiente: 
-Localização das mesas, pontos de recarga, rota segura de circulação, áreas de restrição (como zonas com crianças).
+Como o Vesper é um robô fixo, o mapeamento do ambiente não envolve rotas de locomoção ou áreas de circulação. Sua interação com o espaço físico é extremamente limitada, sendo necessária apenas uma zona frontal acessível e segura para que o usuário retire a bebida com conforto.
 
 Controle de volume:
- Adequação do nível dos speakers ao ambiente (evitando sons altos em locais mais silenciosos ou ao se aproximar dos clientes).
+Adequação do nível dos speakers ao ambiente (evitando sons altos em locais mais silenciosos ou ao se aproximar dos clientes).
 
 Presença de obstáculos: 
-Localização de objetos fora do lugar, acúmulo de pessoas ou móveis que interfiram na rota.
+Como o Vesper não possui mobilidade e está fixo em sua base, ele não precisa monitorar rotas ou obstáculos em caminhos de deslocamento. No entanto, para garantir a operação segura e fluida, é importante que a área imediatamente em frente ao robô esteja sempre desobstruída.
 
 Nível de bebida no compartimento:
 Evitar iniciar entregas com estoque insuficiente.
-
-Identificação de zonas proibidas: 
-O robô deve reconhecer áreas onde sua presença não é recomendada, como mesas infantis, pistas de dança ou corredores estreitos.
 
 Estado do ambiente: 
 Nível de iluminação, se há som ambiente alto, clima (para adaptar eventuais mensagens ou tom de voz).
@@ -122,7 +119,7 @@ Nível de iluminação, se há som ambiente alto, clima (para adaptar eventuais 
 ## Jornada do usuário
 
 Narrativa:
-No ambiente de um bar tecnológico, o cliente se dirige até o balcão, onde encontra o robô Vesper posicionado de forma fixa. O robô está protegido por uma cortina de segurança transparente que delimita claramente seu espaço de atuação, impedindo contato direto entre os usuários e suas partes móveis. A ativação acontece exclusivamente por meio do toque no tablet localizado na frente da base do robô, fora da zona de segurança.
+No ambiente de um bar tecnológico, o cliente se dirige até o balcão, onde encontra o robô Vesper posicionado de forma fixa. O robô está protegido por uma cortina de segurança transparente que delimita claramente seu espaço de atuação, impedindo contato direto entre os usuários e suas partes móveis enquanto estiver em operação. A ativação acontece exclusivamente por meio do toque no tablet localizado na frente da base do robô, fora da zona de segurança.
 
 Jornada passo a passo:
 
@@ -141,7 +138,7 @@ Entrega (verbal e não-verbal):
 Com a bebida pronta, o braço do robô estende cuidadosamente o copo até a borda da área segura, posicionando-o na altura de retirada. Nesse momento, o robô anuncia:
 “Bebida pronta! Pegue com cuidado dos meus dedos, pode escorregar!”
 
-O cliente apenas estende o braço até a área permitida e retira o copo. Não há entrada na zona do robô nem qualquer tipo de deslocamento por parte da máquina.
+O cliente apenas estende o braço até a área permitida e retira o copo.
 
 Encerramento (verbal):
 Após a retirada do copo, o robô volta para sua posição inicial e agradece:
@@ -153,7 +150,7 @@ O bar permanece funcional, com música ambiente e movimento moderado.
 
 A cortina de segurança delimita claramente o espaço do robô, reforçando a segurança da interação.
 
-Não há movimentação do robô no espaço físico – ele permanece totalmente estático.
+Não há movimentação do robô no espaço físico
 
 A única interface física acessível ao cliente é o tablet, que fica fora da zona de segurança.
 
@@ -257,80 +254,43 @@ Pouco atrativo em ambientes sofisticados
 Plataforma similar ao Vesper (mesmo público e funcionalidades):
 O Makr Shakr é a plataforma mais próxima do Vesper em termos de mercado-alvo e funcionalidades. Ambos atuam em ambientes sofisticados, com foco em drinks e experiência.
 
-Pontos positivos do Makr Shakr: grande capacidade técnica e visual futurista.
-
-Pontos negativos: alto custo, complexidade de manutenção e possível desconexão emocional com o usuário.
-
 Plataforma diferente no serviço, mas que atende o mesmo mercado:
 O BierPaulii atende o mesmo público em eventos descontraídos, mas de maneira diferente — focado em cervejas e cervejarias.
-
-Pontos positivos: praticidade, velocidade, robustez.
-
-Pontos negativos: pouca flexibilidade e estética industrial, o que o distancia do ambiente sofisticado visado pelo Vesper.
 
 Plataforma mais interessante para a equipe:
 O Makr Shakr é considerado a plataforma mais inspiradora. Apesar da sua complexidade, ele demonstra como um robô pode transformar o preparo de bebidas em uma experiência visual e funcional. No entanto, o Vesper se destaca por buscar um equilíbrio entre tecnologia acessível, segurança e estética adaptada a ambientes de médio porte. Ele mantém uma proposta mais contida, segura e funcional, sem deixar de lado a interação amigável e o apelo visual.
 
 ## Design
 
-O Vesper foi projetado para ser um robô bartender fixo, com foco em acessibilidade, segurança, estética moderna e experiência intuitiva. Seu design é composto por formas simples e bem definidas, priorizando clareza funcional e segurança no uso.
+O Vesper foi projetado como um robô bartender fixo, com foco em acessibilidade, segurança e clareza funcional. Seu visual é limpo e simétrico, pensado para ser eficiente na entrega de bebidas e amigável na interação com o usuário.
 
-Affordances e acessibilidade
+ 
 
-O conceito de affordance foi considerado para garantir que a interação com o Vesper seja intuitiva e segura. Alguns exemplos:
+Estrutura física e formas primitivas
 
-A tela do tablet frontal está inclinada e em altura acessível para usuários em pé ou com mobilidade reduzida.
+O robô é inteiramente composto por formas geométricas simples, facilitando a modelagem e a produção:
 
-Luzes LED indicam claramente o status do robô (aguardando, preparando, entrega).
+9 retângulos:
 
-O braço mecânico se posiciona automaticamente em um ponto de fácil alcance, sinalizando claramente que o copo pode ser retirado.
+1 base superior (estrutura dos braços)
 
-A presença de uma cortina de segurança física e visual impede a aproximação excessiva dos usuários, promovendo acessibilidade sem comprometer a segurança.
+1 base inferior (estrutura principal do robô)
 
-Textos e ícones na interface são grandes e de alto contraste para pessoas com baixa visão.
+1 para o tablet fixado na parte frontal inferior
 
-Expectativas do usuário
+2 bases das garras (esquerda e direita)
 
-O projeto do Vesper considera que os usuários esperam uma experiência prática, segura e marcante. Para que o robô seja bem aceito comercialmente, é necessário atender às seguintes expectativas:
+4 “dedos” retangulares (dois em cada garra)
 
-Clareza na comunicação: o Vesper utiliza linguagem amigável, simples e direta.
+8 cilindros:
 
-Aparência confiável: seu design é moderno, mas sem exageros tecnológicos que possam assustar o usuário comum.
+2 braços (esquerdo e direito)
 
-Tempo de resposta: o usuário espera um tempo de preparo e entrega rápido.
+2 antebraços (esquerdo e direito)
 
-Estabilidade: o robô não pode apresentar comportamentos imprevisíveis.
+4 alto-falantes cilíndricos (um em cada canto da base superior)
 
-Ao atender essas expectativas, o robô aumenta sua aceitação no mercado, reduz a necessidade de treinamento e reforça a imagem de marca do estabelecimento onde está instalado.
-
-Antropomorfismo
-
-O Vesper adota um padrão com características levemente antropomórficas:
-
-Possui uma “cabeça” estática com um alto-falante que simula fala.
-
-O braço com “garra” atua como um gesto de entrega.
-
-Luzes e movimentos suaves ajudam a criar empatia sem parecer humano demais.
-
-Esse padrão é o mais aceito no contexto do projeto, pois evita o “vale da estranheza” — ou seja, o desconforto causado por robôs que tentam imitar demais os humanos — enquanto ainda transmite simpatia e atenção.
-
-Design com formas primitivas
-
-O modelo do Vesper foi construído usando formas geométricas simples:
-
-A base é composta por um grande paralelepípedo horizontal (caixa), que abriga os sistemas eletrônicos e serve de suporte estável.
-
-A parte superior é formada por uma estrutura vertical com duas colunas laterais (também caixas) e barras transversais cilíndricas.
-
-O braço é representado por dois cilindros articulados (braço e antebraço) ligados por juntas rotativas.
-
-A “garra” é formada por pequenos blocos retangulares articulados.
-
-Os alto-falantes circulares (círculos ou cilindros achatados) na frente simulam “olhos” e falam com os usuários.
-
-Essa abordagem facilita a modelagem digital (como em URDF), permite impressão 3D e garante viabilidade construtiva com custos reduzidos.
-
+Essa combinação de caixas e cilindros permite um design modular, fácil de montar e adaptar para ambientes reais ou simulações digitais (URDF, Gazebo).
 <!-- ![Partes do robô](Formato_Vesper.png) -->
 <!-- ![Robô](Vesper_model.png) -->
 <!-- ![Robôs](Vesper_model_color.png) -->
@@ -340,8 +300,6 @@ Essa abordagem facilita a modelagem digital (como em URDF), permite impressão 3
 
 ## Ações do robô
 O robô bartender Vesper realiza um conjunto de ações pré-programadas com foco em segurança, automação de preparo de bebidas e interação com o usuário. Abaixo, listamos as principais ações, seus pré-requisitos e os efeitos esperados no ambiente.
-
- 
 
 Ação: Ativação do robô (início da interação)
 
@@ -355,13 +313,10 @@ Detecção de toque (input inicial do usuário).
 
 Modificações esperadas no ambiente:
 
-Ativação de luzes LED de status (sinalizando “ativo”).
-
 Início de reprodução de mensagens verbais.
 
 Interface de menu é exibida no tablet.
 
- 
 
 Ação: Coleta e preparo da bebida
 
@@ -378,8 +333,6 @@ Nenhum erro de sistema ou falha de segurança.
 Modificações esperadas no ambiente:
 
 Movimento visível do braço dentro da área de segurança.
-
-Luz de “preparando” acesa.
 
 Som ambiente do robô em funcionamento.
 
@@ -433,8 +386,6 @@ Tablet exibe novamente a tela de boas-vindas.
 
 10 – Interações do Robô
 O Vesper foi projetado para oferecer interações simples, claras e seguras. Suas interações são limitadas por sua estrutura fixa e pela cortina de segurança, mas ainda assim proporcionam uma experiência marcante ao usuário.
-
- 
 
 Interações Espaciais
 Interação: Estender o braço com a bebida até o ponto de retirada
@@ -583,24 +534,5 @@ Atenção ao detalhe.
 
 Empatia com o robô (o gesto simula um cuidado humano).
 
- 
-
-Interação: Alteração visual com LEDs
-
-Descrição: As luzes no robô mudam de cor conforme o estágio do atendimento (ex: azul em espera, amarelo preparando, verde bebida pronta).
-
-Pré-requisitos:
-
-Estado interno alterado.
-
-Resposta emocional esperada:
-
-Clareza sobre o progresso do pedido.
-
-Estética tecnológica agradável.
 
 [^1]: Fonte: Adaptado de <https://hazeshift.com.br/mapa-de-empatia/>
-
-<!-- TODOs:
-- Add exemplos
- -->
