@@ -4,7 +4,7 @@ Trabalho de Interação Humano-Robô (IHR) apresentado ao Centro Universitário 
 
 ### Componentes do Grupo
 
-- João Victor de Assis Segantin
+- João Victor de Assis Segantin RA:11.120.378-2
 
 ### Resumo
 
@@ -23,45 +23,32 @@ Neste cenário, foi desenvolvido o Vesper, um robô bartender fixo, projetado pa
 O robô bartender Vesper foi desenvolvido para atender um público que frequenta restaurantes de padrão médio-alto, em ambientes onde a tecnologia e a sofisticação fazem parte da proposta de valor do estabelecimento. Esse público busca agilidade no atendimento, praticidade no processo de pedidos e, ao mesmo tempo, experiências diferenciadas e inovadoras. Além disso, o Vesper também interage com os colaboradores do restaurante, principalmente os garçons responsáveis pelo suporte logístico da operação.
 
 ### Personas
-Persona Primária – Cliente do restaurante
-Nome: Carolina
-Idade: 34 anos
-Profissão: Designer de interiores
-Contexto social e econômico: Classe média-alta, frequenta restaurantes premium e valoriza experiências gastronômicas inovadoras. Está conectada às tendências tecnológicas e busca ambientes que combinem conforto, estilo e praticidade.
-Cultura e comportamento: Gosta de tirar fotos e compartilhar experiências nas redes sociais. Valoriza atendimento ágil e tem baixa tolerância a longas esperas.
+Persona Primária – Rafael, 28 anos, publicitário
+Contexto social e econômico: Profissional de classe média-alta, conectado às tendências de inovação. Frequenta bares, eventos sociais e ambientes modernos. Valoriza experiências tecnológicas, práticas e diferenciadas.
+Cultura e comportamento: É ativo em redes sociais, gosta de registrar experiências marcantes e compartilhar com amigos. Demonstra interesse por inovações, automação e ambientes interativos. Prefere atendimento rápido e organizado, e tem baixa tolerância a atrasos ou confusão.
 
 O que o robô precisa saber antes de iniciar a tarefa:
+O tipo de bebida desejada (menu acessível e objetivo)
+Se o cliente é maior de idade (confirmação obrigatória para bebidas alcoólicas)
+Se há restrições alimentares ou preferências (ex: sem álcool, sem gelo, etc.)
 
-O tipo de bebida desejada (menu com opções claras)
-
-Restrições (como opção sem álcool ou alergias)
-
-Confirmação de idade, para validar legalmente a entrega de bebidas alcoólicas
-
-Persona Secundária – Garçom reabastecedor
-Nome: Diego
-Idade: 27 anos
-Profissão: Garçom
-Contexto social e econômico: Jovem trabalhador da área de serviços, com ensino médio completo e experiência em atendimento ao público. Trabalha em um restaurante de alto padrão onde eficiência e organização são essenciais.
-Cultura e comportamento: Preza por praticidade, clareza nas tarefas e bom ambiente de trabalho. Está habituado a lidar com sistemas digitais e alertas operacionais.
+Persona Secundária – João, 40 anos, garçom
+Contexto social e econômico: Profissional com ampla experiência em restaurantes de médio a alto padrão. Atua em um ambiente onde a eficiência operacional é crucial. Tem domínio de tarefas logísticas e conhecimento básico em sistemas automatizados.
+Cultura e comportamento: Organizado, prático e colaborativo. Está acostumado com novas tecnologias e valoriza instruções claras. Preza pela segurança no ambiente de trabalho e pelo bom funcionamento dos equipamentos sob sua supervisão.
 
 O que o robô precisa saber antes de iniciar a tarefa:
+Se há itens em falta no estoque interno (detectado por sensores do próprio robô)
+Quais insumos devem ser reabastecidos (ex: gelo, bebidas, copos)
+Onde ficam os insumos, facilitando a reposição
+Que alertas visuais ou sonoros devem ser ativados para sinalizar falhas ou baixo nível de estoque
 
-Se os insumos estão no nível adequado (o próprio robô detecta e envia alertas)
+# Outras Personas
+Gestores do restaurante: Avaliam o impacto do Vesper na operação, a satisfação dos clientes e a viabilidade econômica do investimento em automação.
+Técnicos de manutenção: Responsáveis por atualizações de software, calibração dos braços, sensores e integridade da cortina de segurança.
 
-Qual item está faltando ou precisa de reposição (ex: gelo, bebida alcoólica, copos)
-
-Local de armazenamento para facilitar o reabastecimento
-
-Outras personas
-Gestores do restaurante: Avaliam o desempenho do robô em termos de custo-benefício, eficiência no atendimento e feedback dos clientes.
-
-Técnicos de manutenção: Responsáveis por garantir o funcionamento contínuo do robô, atualizando software e monitorando o hardware.
-
-Personas que não devem interagir com o robô
+# Personas que não devem interagir com o robô
 Crianças e adolescentes (menores de 18 anos):
-Como o Vesper é projetado para servir bebidas alcoólicas, sua interação com menores de idade é estritamente proibida. Medidas preventivas devem ser tomadas, como bloqueios físicos, cortinas de segurança e futuros mecanismos de verificação de idade, para garantir a operação ética e segura do sistema.
-
+O Vesper foi projetado para atender exclusivamente adultos. A interação com menores de idade é proibida por razões legais (venda de bebidas alcoólicas) e de segurança física. Como o robô possui partes móveis e elementos automatizados, existe risco de acidente caso crianças se aproximem indevidamente. Para isso, o projeto prevê a implementação de barreiras físicas como cortina de segurança, delimitação de área e, futuramente, sistemas de verificação de idade.
 ### Mapa de empatia
 
 ![Mapa Empatia](empatia_Rafael.png)
