@@ -345,9 +345,9 @@ Os alto-falantes circulares (círculos ou cilindros achatados) na frente simulam
 Essa abordagem facilita a modelagem digital (como em URDF), permite impressão 3D e garante viabilidade construtiva com custos reduzidos.
 
 <!-- ![Partes do robô](Formato_Vesper.png) -->
-<!-- ![Robô](robo.png) -->
+<!-- ![Robô](Vesper_model.png) -->
 <img alt="Partes do robô" src="Formato_Vesper.png" height="200"/>
-<img alt="Robô" src="robo.png" height="200"/>
+<img alt="Robô" src="Vesper_model.png" height="200"/>
 
 ## Ações do robô
 O robô bartender Vesper realiza um conjunto de ações pré-programadas com foco em segurança, automação de preparo de bebidas e interação com o usuário. Abaixo, listamos as principais ações, seus pré-requisitos e os efeitos esperados no ambiente.
