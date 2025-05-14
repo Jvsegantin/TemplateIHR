@@ -346,7 +346,7 @@ Essa abordagem facilita a modelagem digital (como em URDF), permite impressão 3
 
 <!-- ![Partes do robô](Formato_Vesper.png) -->
 <!-- ![Robô](robo.png) -->
-<img alt="Partes do robô" src="partes_do_robo.png" height="200"/>
+<img alt="Partes do robô" src="Formato_Vesper.png" height="200"/>
 <img alt="Robô" src="robo.png" height="200"/>
 
 ## Ações do robô
