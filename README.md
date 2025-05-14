@@ -344,7 +344,7 @@ Os alto-falantes circulares (círculos ou cilindros achatados) na frente simulam
 
 Essa abordagem facilita a modelagem digital (como em URDF), permite impressão 3D e garante viabilidade construtiva com custos reduzidos.
 
-<!-- ![Partes do robô](Formato_vesper) -->
+<!-- ![Partes do robô](Formato_vesper.png) -->
 <!-- ![Robô](robo.png) -->
 <img alt="Partes do robô" src="partes_do_robo.png" height="200"/>
 <img alt="Robô" src="robo.png" height="200"/>
