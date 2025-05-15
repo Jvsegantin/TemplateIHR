@@ -51,7 +51,7 @@ Crianças e adolescentes (menores de 18 anos):
 O Vesper foi projetado para atender exclusivamente adultos. A interação com menores de idade é proibida por razões legais (venda de bebidas alcoólicas) e de segurança física. Como o robô possui partes móveis e elementos automatizados, existe risco de acidente caso crianças se aproximem indevidamente. Para isso, o projeto prevê a implementação de barreiras físicas como cortina de segurança, delimitação de área e, futuramente, sistemas de verificação de idade.
 ### Mapa de empatia
 
-![Mapa Empatia](empatia_Rafael.png)
+![Mapa Empatia Rafael](empatia_Rafael.png)
 
 ### Persona Primária: Rafael, 28 anos, publicitário
 O que ele PENSA E SENTE?
@@ -72,7 +72,7 @@ Esperar muito tempo pelo atendimento. Sentir que o robô é brusco ou ameaçador
 GANHOS:
 Atendimento divertido, automatizado, rápido e seguro. Experiência diferenciada e memorável. Praticidade no recebimento da bebida.
 
-![Mapa Empatia](empatia_Joao.png)
+![Mapa Empatia João](empatia_Joao.png)
 
 ### Persona Secundária: João, 40 anos, garçom
 O que ele PENSA E SENTE?
@@ -122,6 +122,7 @@ Narrativa:
 No ambiente de um bar tecnológico, o cliente se dirige até o balcão, onde encontra o robô Vesper posicionado de forma fixa. O robô está protegido por uma cortina de segurança transparente que delimita claramente seu espaço de atuação, impedindo contato direto entre os usuários e suas partes móveis enquanto estiver em operação. A ativação acontece exclusivamente por meio do toque no tablet localizado na frente da base do robô, fora da zona de segurança.
 
 Jornada passo a passo:
+![Simulaç](simulador_vesper.png)
 
 Início da interação (verbal):
 O cliente toca na tela do tablet para iniciar o pedido. Isso desperta o sistema do Vesper, que responde de forma simpática por meio dos alto-falantes:
